@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -645,15 +645,22 @@ h3,
 h4,
 h5,
 h6,
-p,
-label,
 .btn,
-a {
+a
+ {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000000!important;
+    color: white!important;
 }
 
+p,
+label
+{
+    font-family: "helvetica";
+    font-weight: 400;
+    color:black;
+   
+}
 .container {
     max-width: 1000px;
 }
@@ -771,15 +778,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f78b59;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f78b59!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f78b59;
     color: #FFFFFF!important;
 }
 
@@ -810,11 +817,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
@@ -822,7 +829,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {

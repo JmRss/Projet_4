@@ -740,10 +740,6 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
-}
-
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -779,14 +775,14 @@ aside .mg-md{
 }
 
 .bgc-atomic-tangerine {
-    background-color: #eb7843;
+    background-color: #933610;
 }
 
 .tc-white {
     color: #843410!important;   
 }
 .btn-atomic-tangerine {
-    background: #eb7843;
+    background: #933610;
     color: #FFFFFF!important;
 }
 
@@ -796,11 +792,11 @@ aside .mg-md{
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine {

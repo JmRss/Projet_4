@@ -758,7 +758,7 @@ h4 {
 }
 
 .black-background,aside .mg-md {
-    background-color: rgba(165, 147, 99, 1);
+    background-color: rgb(255, 255, 255);
     padding: 40px;
 }
 aside .mg-md{
@@ -783,7 +783,7 @@ aside .mg-md{
 }
 
 .tc-white {
-    color: #a74619!important;   
+    color: #843410!important;   
 }
 .btn-atomic-tangerine {
     background: #eb7843;

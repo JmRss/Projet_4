@@ -640,13 +640,12 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6,
-.btn,
-a
+footer a,
+.btn
  {
     font-family: "helvetica";
     font-weight: 400;
@@ -654,10 +653,12 @@ a
 }
 
 p,
+a,
+h2,
 label
 {
     font-family: "helvetica";
-    font-weight: 400;
+    font-weight: 500;
     color:black;
    
 }
@@ -897,6 +898,12 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .img--size{
+       display:none;
+    }
+    .img-responsive{
+        display: inline;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -933,7 +940,7 @@ h4 {
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        background: rgb(94, 94, 94);
         text-align: left;
         padding-left: 15px;
         width: 100%;
@@ -1045,5 +1052,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .nav a{
+        color: white!important;
     }
 }

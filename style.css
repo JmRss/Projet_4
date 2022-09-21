@@ -779,20 +779,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f78b59;
+    background-color: #eb7843;
 }
 
 .tc-white {
-    color: #f78b59!important;
+    color: #eb7843!important;
 }
 
 .btn-atomic-tangerine {
-    background: #f78b59;
+    background: #eb7843;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #F3976C!important;
     color: #FFFFFF!important;
 }
 
@@ -898,6 +898,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
+  
     .img--size{
        display:none;
     }

@@ -1,0 +1,3 @@
+User-agent: *
+allow :https://jmrss.github.io/Projet_4/
+allow :https://jmrss.github.io/Projet_4/contact.html
